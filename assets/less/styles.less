@@ -1,0 +1,107 @@
+// CSS Reset
+@import "bootstrap/reset.less";
+
+// Core variables and mixins
+@import "bootstrap/variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "bootstrap/mixins.less";
+
+// Grid system and page structure
+@import "bootstrap/scaffolding.less";
+@import "bootstrap/grid.less";
+@import "bootstrap/layouts.less";
+
+// Base CSS
+@import "bootstrap/type.less";
+
+// Utilites
+@import "bootstrap/utilities.less";
+
+
+
+
+//@import "bootstrap/variables.less";
+//@import "bootstrap/mixins.less";
+//@import "bootstrap/reset.less";
+//@import "bootstrap/grid.less";
+//@import "bootstrap/layouts.less";
+//@import "bootstrap/type.less";
+
+@bodyBackground:        #fFf9f9;
+@textColor:             #4B5657;
+
+
+html {
+    height: 100%;
+}
+
+body {
+//    background: #3c5164;
+//    color: #f5deb3;
+//    color: #f5ead6;
+    height: 100%;
+
+
+}
+
+section {
+/* this is to stop collapsing margins */
+    padding-top: 1px;
+    margin-top: -1px;
+//    background: green;
+    height: 100%;
+    width: 100%;
+
+//    display: table;
+//    margin-bottom: 20%;
+
+    h1 {
+//        display: table-cell;
+//        vertical-align: middle;
+//        margin: auto;
+        text-align: center;
+        margin-top: 140px;
+        font-size: 48px;
+    }
+    p {
+        text-align: center;
+        color: #999;
+        font-family: 'Cardo', serif;
+        font-size: 18px;
+        font-style: italic;
+    }
+}
+
+body > header {
+    height: 100px;
+    background: rgba(0,0,0,.1);
+    border-bottom: 1px solid darken(@bodyBackground, 20%);
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 21px;
+    font-family: 'Droid Sans';
+    text-align: justify;
+    text-rendering: optimizeLegibility;
+}
+
+article {
+    @shadow: 0 0 0 1px rgba(0,0,0,.1), 0 0 3px 1px rgba(0,0,0,.1);
+    h1 {
+        margin-bottom: 10px;
+    }
+}
+
+h1 {
+    color: #575652;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: "Lato";
+    padding-bottom: 10px;
+}
+
+.centered {
+    text-align: center
+}
+
