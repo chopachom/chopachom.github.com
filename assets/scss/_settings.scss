@@ -1,0 +1,38 @@
+@import 'foundation/variables';
+
+$body-font-family:		'Open Sans', Helvetica, Arial, sans-serif;
+$body-font-weight: 		400;
+$header-font-family:	$body-font-family;
+$header-font-weight: 	300;
+$header-font-color: 	rgb(91, 142, 177);
+//$header-font-style:		italic;
+
+
+$color-wet-asphalt:		#34495e;
+$color-midnight-blue:	#2c3e50;
+$color-light-gray:		darken(#fff, 5%);
+
+$global-radius: 3px;
+
+$topbar-bg: $color-wet-asphalt;
+$topbar-dropdown-bg: $color-midnight-blue;
+//$topbar-link-hover-lightness: -5%;
+$topbar-margin-bottom: 0;
+//$topbar-divider-border-bottom: none;
+//$topbar-divider-border-top: none;
+
+$topbar-link-bg-hover:   darken($topbar-bg, 10%);
+$topbar-link-bg-active:  darken($topbar-bg, 10%);
+
+$button-radius:       $global-radius;
+$button-border-width: 0;
+
+$shiny-edge-color: rgba(#fff, 0);
+
+
+// sidenav
+$side-nav-padding: 0;
+
+$side-nav-font-size:  emCalc(18px);
+
+$side-nav-link-color-active: lighten(#000, 50%);
